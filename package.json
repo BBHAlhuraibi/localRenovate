@@ -1,0 +1,9 @@
+{
+  "name": "localRenovate",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "3.10.1"
+  }
+}
