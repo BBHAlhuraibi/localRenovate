@@ -12,7 +12,8 @@
       "updateTypes": ["minor", "patch"],
       "groupSlug": "slug-root-dependencies",
       "commitMessagePrefix": "chore:",
-      "commitMessageAction": "bump"
+      "commitMessageAction": "bump",
+      "schedule": ["30 11 * * *"]
     },
     {
       "matchPackageNames": ["vue", "axios"],
