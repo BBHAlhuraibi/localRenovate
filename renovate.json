@@ -2,12 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base"],
   "timezone": "Europe/Vienna",
-  "prHourlyLimit": 1000,
+  "prHourlyLimit": 1000
   "ignorePaths": [
     "**/NuxtApp/**"
   ],
   "packageRules": [
     {
+      "group": true,
       "matchPackageNames": ["express", "lodash", "moment"],
       "groupName": "Root dependencies (express & lodash)",
       "updateTypes": ["minor", "patch"],
