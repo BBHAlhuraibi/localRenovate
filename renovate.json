@@ -6,11 +6,14 @@
   "ignorePaths": [
     "**/NuxtApp/**"
   ],
+  "schedule": [
+    "every 15 minutes"
+  ],
   "packageRules": [
     {
       "matchPackageNames": ["express", "lodash", "moment"],
       "groupName": "Root dependencies (express & lodash)",
-      "updateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [ "minor", "patch"],
       "groupSlug": "slug-root-dependencies",
       "commitMessagePrefix": "chore:",
       "commitMessageAction": "bump",
@@ -19,7 +22,7 @@
     {
       "matchPackageNames": ["vue", "axios"],
       "groupName": "NuxtApp dependencies (vue & axios)",
-      "updateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["minor", "patch"],
       "groupSlug": "slug-nuxtapp-dependencies"
     }
   ]
