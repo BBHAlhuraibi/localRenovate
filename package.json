@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "express": "4.17.1",
-    "lodash": "3.10.1"
+    "lodash": "3.10.1",
+    "moment": "2.29.4"
   }
 }
