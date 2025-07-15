@@ -7,7 +7,7 @@
     "**/NuxtApp/**"
   ],
   "schedule": [
-    "0 * * * *"
+    "* 15 * * *"
   ],
   "packageRules": [
     {
