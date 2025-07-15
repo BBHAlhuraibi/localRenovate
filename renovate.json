@@ -7,7 +7,10 @@
       "matchPackageNames": ["express", "lodash", "moment"],
       "groupName": "Root dependencies (express & lodash)",
       "updateTypes": ["minor", "patch"],
-      "groupSlug": "slug-root-dependencies"
+      "groupSlug": "slug-root-dependencies",
+      "commitMessagePrefix": "chore:",
+      "commitMessageAction": "bump",
+      "commitMessageTopic": "{{groupName}} to latest minor/patch"
     },
     {
       "matchPackageNames": ["vue", "axios"],
