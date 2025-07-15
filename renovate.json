@@ -13,7 +13,7 @@
       "groupSlug": "slug-root-dependencies",
       "commitMessagePrefix": "chore:",
       "commitMessageAction": "bump",
-      "schedule": ["30 11 * * *"]
+      "schedule": ["at 11:30"]
     },
     {
       "matchPackageNames": ["vue", "axios"],
