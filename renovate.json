@@ -4,7 +4,7 @@
   "prHourlyLimit": 1000,
   "packageRules": [
     {
-      "matchPackageNames": ["express", "lodash"],
+      "matchPackageNames": ["express", "lodash", "moment"],
       "groupName": "Root dependencies (express & lodash)",
       "updateTypes": ["minor", "patch"],
       "groupSlug": "slug-root-dependencies"
@@ -13,7 +13,7 @@
       "matchPackageNames": ["vue", "axios"],
       "groupName": "NuxtApp dependencies (vue & axios)",
       "updateTypes": ["minor", "patch"],
-        "groupSlug": "slug-nuxtapp-dependencies"
+      "groupSlug": "slug-nuxtapp-dependencies"
     }
   ]
 }
