@@ -3,14 +3,18 @@
   "extends": ["config:base"],
   "packageRules": [
     {
+      "group": true,
       "matchPackageNames": ["express", "lodash"],
       "groupName": "Root dependencies (express & lodash)",
-      "updateTypes": ["minor", "patch"]
+      "updateTypes": ["minor", "patch"],
+      "groupSlug": "slug-root-dependencies"
     },
     {
+      "group": true,
       "matchPackageNames": ["vue", "axios"],
       "groupName": "NuxtApp dependencies (vue & axios)",
-      "updateTypes": ["minor", "patch"]
+      "updateTypes": ["minor", "patch"],
+        "groupSlug": "slug-nuxtapp-dependencies"
     }
   ]
 }
