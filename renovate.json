@@ -6,9 +6,6 @@
   "ignorePaths": [
     "**/NuxtApp/**"
   ],
-  "schedule": [
-    "* 15 * * *"
-  ],
   "packageRules": [
     {
       "matchPackageNames": ["express", "lodash", "moment"],
