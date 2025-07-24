@@ -11,10 +11,9 @@
       "matchPackageNames": ["express", "lodash", "moment"],
       "groupName": "Root dependencies (express & lodash)",
       "matchUpdateTypes": [ "minor", "patch"],
-      "groupSlug": "slug-root-dependencies",
       "commitMessagePrefix": "chore:",
       "commitMessageAction": "bump",
-      "schedule": ["* 15 * * *"]
+      "assignees": ["BBHAlhuraibi"]
     },
     {
       "matchPackageNames": ["vue", "axios"],
